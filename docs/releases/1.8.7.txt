@@ -18,3 +18,8 @@ Bugfixes
 * Fixed a regression in 1.8.6 by restoring the ability to use ``Manager``
   objects for the ``queryset`` argument of ``ModelChoiceField``
   (:ticket:`25683`).
+
+* Fixed a regression in 1.8.0, ``gettext`` in Python 2 now returns UTF-8
+  bytestrings if the input is a bytestring (:ticket:`25720`).
+
+* ...
